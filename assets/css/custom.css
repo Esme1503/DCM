@@ -1,0 +1,15 @@
+/*Top page*/
+.container-fluid{
+  padding: 0;
+}
+body{
+  width:100%;
+  height: 100%;
+}
+.img{
+  width: 100%;
+  margin: 0;
+}
+#inicio{
+  background-image: url("../images/inicio.jpg");
+}
