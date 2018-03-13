@@ -12,7 +12,7 @@
   <body>
     <!--Inicio-->
     <div id="inicio" class="container-fluid">
-      <img src="" alt="">
+      <img width="100%" src="./assets/images/inicio.jpeg" alt="">
     </div>
     <!--Banner-->
     <div class="slider autoplay container-fluid responsive">
@@ -28,43 +28,47 @@
     </div>
 
     <!--Formuulario-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-4">
-          
-        </div>
-        <div class="col">
-          <div class="row">
-            <div class="col">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col">
-                    <input type="text" name="nombre" placeholder="nombre" style="background-color:transparent" pattern="[a-zA-Z]{1,20}">
+    <form class="" action="" method="post">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
 
-                  </div>
-                  <div class="col">
-                    <input type="text" name="apellido_paterno" placeholder="apellido paterno" style="background-color:transparent">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input type="text" name="fecha_nac" placeholder="fecha de nacimiento" style="background-color:transparent">
-                  </div>
-                  <div class="col">
-                    <input type="text" name="RFC" placeholder="RFC(10 digitos)" style="background-color:transparent">
-                  </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" name="nombre" placeholder="nombre" style="background-color:transparent" pattern="[a-zA-Z]{1,20}">
 
+                    </div>
+                    <div class="col">
+                      <input type="text" name="apellido_paterno" placeholder="apellido paterno" style="background-color:transparent">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <input type="date" name="fecha_nac" placeholder="fecha de nacimiento" style="background-color:transparent">
+                    </div>
+                    <div class="col">
+                    <input type="text" name="apellido_materno" placeholder="apellido materno" style="background-color:transparent">
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-4">
-              <input type="text" name="apellido_materno" placeholder="apellido materno" style="background-color:transparent">
-              <input type="submit" name="enviar" value="Enviar">
+              <div class="col-4">
+                <input id="rfc"onfocus="calcular(nombre.value,
+                apellido_paterno.value,
+                apellido_materno.value,
+                fecha_nac.value)"type="text" name="RFC" placeholder="RFC(10 digitos)" style="background-color:transparent">
+              </div>
+                <button type="submit" name="enviar">Enviar</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </form>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
