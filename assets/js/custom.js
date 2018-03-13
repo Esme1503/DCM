@@ -38,7 +38,7 @@ function calcular(nombre,ap_pater,ap_mater, fecha){
   if(nombre != "" & ap_pater != "" & ap_mater != "" & fecha != ""){
     var rfc, cad_fecha, vocal,cont=0;
     var vocales = ["a","e","i","o","u"];
-    var arreglo = ap_pater.substring(1,ap_pater.length).split('');
+    var arreglo = ap_pater.substring(1,ap_pater.length).toLowerCase().split('');
     for(var i=0;i<arreglo.length;i++){
       for(var j=0;j<vocales.length;j++){
         if(arreglo[i]==vocales[j] & cont==0){
