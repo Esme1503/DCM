@@ -45,11 +45,23 @@
       <img src="./assets/images/inicio.jpeg" alt="" width="100%">
     </div>
     <!--Acerca-->
+    <div class="titles">
+      <h6 class="title">QUIENES<span class="title-spn"> SOMOS</span></h6>
+    </div>
     <div class="continer-fluid max">
       <div class="row max">
-        <div class="col">
-          <h5></h5>
-          <p></p>
+        <div class="col about">
+          <h5 class="subtitle"></h5>
+          <p class="text">Somos una empresa conformada por profesionales del diseño, la arquitectura,
+            construcción y la aplicación de nuevas tecnologías. DCM nació para dar respuesta
+            a la creciente necesidad  de mantenimiento, decoración y remodelación de  bienes
+            inmuebles con soluciones integrales.
+            DCM es la primer empresa en Aguascalientes en proveer un servicio integral de
+            mantenimiento residencial, destinado a satisfacer exclusivamente las necesidades
+            del mercado inmobiliario. Esto nos permite crear soluciones específicas para cada cliente.
+            Propiedades a estrenar, antiguas, en venta o en alquiler, de uso comercial o para
+            vacacionar. Si en nuestro sitio no encuentra la solución que busca, llámenos y con gusto
+            lo ayudaremos a encontrarla.</p>
         </div>
         <div class="col">
           <h5></h5>
@@ -74,7 +86,10 @@
       </div>
     </div>
 
-    <!--Formuulario-->
+    <!--Formulario-->
+    <div class="titles">
+      <h6 class="title">CONTACTE <span class="title-spn">CON NOSOTROS</span></h6>
+    </div>
     <form class="" action="" method="post">
       <div class="container-fluid max">
         <div class="row max">
@@ -88,18 +103,18 @@
                   <div class="container-fluid max">
                     <div class="row max" style="margin:0">
                       <div class="col form-container">
-                        <input class="form" type="text" name="nombre" placeholder="nombre" style="background-color:transparent" pattern="[a-zA-Z]{1,20}">
+                        <input class="form" type="text" name="nombre" placeholder="nombre" style="background-color:transparent" pattern="^[a-zA-Záéíóú]+\.?\s?[a-zA-Záéíóú]+\s?[a-zA-Záéíóú]*\d{0}" title="siga el formato" required>
                       </div>
                       <div class="col form-container">
-                        <input class="form" type="text" name="apellido_paterno" placeholder="apellido paterno" style="background-color:transparent">
+                        <input class="form" type="text" name="apellido_paterno" placeholder="apellido paterno" style="background-color:transparent" pattern="^[a-zA-Záéíóú]+\s?[a-zA-Záéíóú]*\d{0}">
                       </div>
                     </div>
                     <div class="row max" style="margin:0">
                       <div class="col form-container">
-                        <input class="form" type="date" name="fecha_nac" placeholder="fecha de nacimiento" style="background-color:transparent">
+                        <input class="form" type="text" name="apellido_materno" placeholder="apellido materno" style="background-color:transparent" pattern="^[a-zA-Záéíóú]+\s?[a-zA-Záéíóú]*\d{0}">
                       </div>
                       <div class="col form-container">
-                        <input class="form" type="text" name="apellido_materno" placeholder="apellido materno" style="background-color:transparent">
+                        <input class="form" type="date" name="fecha_nac" placeholder="fecha de nacimiento" style="background-color:transparent">
                       </div>
                     </div>
                   </div>
@@ -111,7 +126,7 @@
                   fecha_nac.value)"type="text" name="RFC" placeholder="RFC(10 digitos)" style="background-color:transparent">
                 </div>
               </div>
-              <button type="submit" name="enviar">Enviar</button>
+              <button class="btn" style="margin-top: 20PX;font-family: Bebas-light;color:white;float: right; background-color: rgb(197, 165, 122); border-radius: 30px; padding: 5px 40px;" type="submit" name="enviar">Enviar</button>
             </div>
           </div>
         </div>
