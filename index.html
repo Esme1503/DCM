@@ -24,7 +24,6 @@
                   <span class="navbar-toggler-icon">aquí</span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                  <a class="navbar-brand nav-button" href="#">Hidden brand</a>
                   <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
                       <a class="nav-link nav-button" href="#">Home <span class="sr-only">(current)</span></a>
@@ -103,15 +102,15 @@
                   <div class="container-fluid max">
                     <div class="row max" style="margin:0">
                       <div class="col form-container">
-                        <input class="form" type="text" name="nombre" placeholder="nombre" style="background-color:transparent" pattern="^[a-zA-Záéíóú]+\.?\s?[a-zA-Záéíóú]+\s?[a-zA-Záéíóú]*\d{0}" title="siga el formato" required>
+                        <input class="form" type="text" name="nombre" placeholder="nombre" style="background-color:transparent" pattern="^[a-zA-ZáéíóúÁÉÍÓÚ]+\.?\s?[a-zA-ZáéíóúÁÉÍÓÚ]+\s?[a-zA-ZáéíóúÁÉÍÓÚ]*\d{0}" title="solo puede poner un punto al inicio como máximo y no permite numeros" required>
                       </div>
                       <div class="col form-container">
-                        <input class="form" type="text" name="apellido_paterno" placeholder="apellido paterno" style="background-color:transparent" pattern="^[a-zA-Záéíóú]+\s?[a-zA-Záéíóú]*\d{0}">
+                        <input class="form" type="text" name="apellido_paterno" placeholder="apellido paterno" style="background-color:transparent" pattern="^[a-zA-ZáéíóúÁÉÍÓÚ]+\s?[a-zA-ZáéíóúÁÉÍÓÚ]*\d{0}" required title="no permite numeros">
                       </div>
                     </div>
                     <div class="row max" style="margin:0">
                       <div class="col form-container">
-                        <input class="form" type="text" name="apellido_materno" placeholder="apellido materno" style="background-color:transparent" pattern="^[a-zA-Záéíóú]+\s?[a-zA-Záéíóú]*\d{0}">
+                        <input class="form" type="text" name="apellido_materno" placeholder="apellido materno" style="background-color:transparent" pattern="^[a-zA-ZáéíóúÁÉÍÓÚ]+\s?[a-zA-ZáéíóúÁÉÍÓÚ]*\d{0}" required tittle="no permite numeros">
                       </div>
                       <div class="col form-container">
                         <input class="form" type="date" name="fecha_nac" placeholder="fecha de nacimiento" style="background-color:transparent">

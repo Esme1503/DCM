@@ -1,6 +1,6 @@
 /*Top page*/
 body{
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(26, 31, 35);
 }
 .row, .container-fluid{
   padding: 0;
@@ -59,7 +59,7 @@ body{
 .titles{
   width: 100%;
   text-align: center;
-  margin-top: 60px; 
+  margin-top: 60px;
 }
 .title{
   color:white;
