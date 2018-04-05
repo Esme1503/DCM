@@ -61,62 +61,42 @@
               <div class="container-fluid">
                 <div class="row">
                   <div class="col">
-                    <label for="[object Object]">Nombre</label>
-                    <input type="text" name="name" value="" placeholder="Nombre">
+                    <input style="color:rgb(197, 165, 122)" class="form-element" type="text" name="name" value="" placeholder="Nombre">
                   </div>
                   <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
+                    <input class="form-element" type="text" name="a_paterno" value="" placeholder="Apellido Paterno">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
+                    <input class="form-element" type="text" name="a_materno" value="" placeholder="Apellido Materno">
                   </div>
                   <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
+                    <input class="form-element" type="text" name="rfc" value="" placeholder="RFC">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
+                    <input class="form-element" type="text" name="colonia" value="" placeholder="Colonia">
                   </div>
                   <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
+                    <input class="form-element" type="text" name="calle" value="" placeholder="Calle">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
+                    <input class="form-element" type="text" name="num_int" value="" placeholder="Numero interior">
                   </div>
                   <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
+                    <input class="form-element" type="text" name="num_ext" value="" placeholder="Numero exterior">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
+                    <input class="form-element" type="text" name="num_tel" value="" placeholder="Numero telefónico">
                   </div>
                   <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
-                  </div>
-                  <div class="col">
-                    <label for="[object Object]">Apellido Paterno</label>
-                    <input type="text" name="name" value="" placeholder="Apellido Paterno">
+                    <input class="form-element" type="text" name="rol" value="" placeholder="Rol">
                   </div>
                 </div>
               </div>
