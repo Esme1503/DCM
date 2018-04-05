@@ -55,11 +55,10 @@
             </tr>
           </tbody>
         </table>
-        <a class="btn add-container" style="color:white;" onclick="showModalEdit()">Editar</a>
         <div id="modal" class="modal">
+          <a class="cerrar" style="color:white" onclick="hideModal();">X</a>
           <div class="form-modal">
-            <a class="cerrar" style="color:white" onclick="hideModal();">X</a>
-            <form class="" action="" method="post">
+            <form class="" action="index.html" method="post">
               <div class="container-fluid">
                 <div class="row">
                   <h6 class="title">NUEVO <span class="title-spn">CLIENTE</span></h6>
@@ -102,70 +101,6 @@
                   </div>
                   <div class="col">
                     <input class="form-element" type="text" name="rol" value="" placeholder="Rol">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col"></div>
-                  <div class="col">
-                    <button class="btn add-container" style="float:right" type="submit" name="button">Crear</button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div id="modal-edit" class="modal">
-          <div class="form-modal">
-            <a class="cerrar-edit cerrar" style="color:white" onclick="hideModalEdit();">X</a>
-            <form class="" action="" method="post">
-              <div class="container-fluid">
-                <div class="row">
-                  <h6 class="title">NUEVO <span class="title-spn">CLIENTE</span></h6>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input class="form-element" type="text" name="name" value="" placeholder="Nombre">
-                  </div>
-                  <div class="col">
-                    <input class="form-element" type="text" name="a_paterno" value="" placeholder="Apellido Paterno">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input class="form-element" type="text" name="a_materno" value="" placeholder="Apellido Materno">
-                  </div>
-                  <div class="col">
-                    <input class="form-element" type="text" name="rfc" value="" placeholder="RFC">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input class="form-element" type="text" name="colonia" value="" placeholder="Colonia">
-                  </div>
-                  <div class="col">
-                    <input class="form-element" type="text" name="calle" value="" placeholder="Calle">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input class="form-element" type="text" name="num_int" value="" placeholder="Numero interior">
-                  </div>
-                  <div class="col">
-                    <input class="form-element" type="text" name="num_ext" value="" placeholder="Numero exterior">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input class="form-element" type="text" name="num_tel" value="" placeholder="Numero telefónico">
-                  </div>
-                  <div class="col">
-                    <input class="form-element" type="text" name="rol" value="" placeholder="Rol">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col"></div>
-                  <div class="col">
-                    <button class="btn add-container" style="float:right" type="submit" name="button">Guardar</button>
                   </div>
                 </div>
               </div>
@@ -173,6 +108,7 @@
           </div>
         </div>
       </div>
+
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
