@@ -56,7 +56,6 @@
             </tr>
           </tbody>
         </table>
-        <a class="btn add-container" style="color:white;" onclick="showModalEdit()">Editar</a>
         <div id="modal" class="modal">
           <div class="form-modal">
             <a class="cerrar" style="color:white" onclick="hideModal();">X</a>
@@ -108,6 +107,7 @@
                 <div class="row">
                   <div class="col"></div>
                   <div class="col">
+                    <button class="btn add-container" style="float:right" type="submit" name="button">Crear</button>
                   </div>
                 </div>
               </div>
