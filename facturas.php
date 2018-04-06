@@ -9,10 +9,11 @@
   <body>
     <nav class="navbar">
       <a href="clients.php"></a>
-      <a class="nav-btn" href="#">Clientes</a>
-      <a class="nav-btn" href="#">Materiales</a>
-      <a class="nav-btn" href="#">Ordenes de compra</a>
-      <a class="nav-btn" href="#">Facturas</a>
+      <a class="nav-btn" href="./clients.php">Clientes</a>
+      <a class="nav-btn" href="./materials.php">Materiales</a>
+      <a class="nav-btn" href="./compra.php">Ordenes de compra</a>
+      <a class="nav-btn" href="./facturas.php">Facturas</a>
+      <a class="nav-btn" href="./mano.php">Mano de Obra</a>
     </nav>
     <div class="body">
       <div class="tbl">
@@ -24,7 +25,7 @@
                 <button class="btn add-container" type="submit">Search</button>
               </form>
             </div>
-            <a class="btn add-container" style="color:white;" onclick="showModal()">Nuevo Cliente</a>
+            <a class="btn add-container" style="color:white;" onclick="showModal()">Nueva Factura</a>
           </div>
           <thead class="thead-dark">
             <tr>
@@ -55,10 +56,11 @@
             </tr>
           </tbody>
         </table>
+        <a class="btn add-container" style="color:white;" onclick="showModalEdit()">Editar</a>
         <div id="modal" class="modal">
-          <a class="cerrar" style="color:white" onclick="hideModal();">X</a>
           <div class="form-modal">
-            <form class="" action="index.html" method="post">
+            <a class="cerrar" style="color:white" onclick="hideModal();">X</a>
+            <form class="" action="" method="post">
               <div class="container-fluid">
                 <div class="row">
                   <h6 class="title">NUEVO <span class="title-spn">CLIENTE</span></h6>
@@ -103,12 +105,16 @@
                     <input class="form-element" type="text" name="rol" value="" placeholder="Rol">
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col"></div>
+                  <div class="col">
+                  </div>
+                </div>
               </div>
             </form>
           </div>
         </div>
       </div>
-
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

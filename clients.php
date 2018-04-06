@@ -9,10 +9,11 @@
   <body>
     <nav class="navbar">
       <a href="clients.php"></a>
-      <a class="nav-btn" href="#">Clientes</a>
-      <a class="nav-btn" href="#">Materiales</a>
-      <a class="nav-btn" href="#">Ordenes de compra</a>
-      <a class="nav-btn" href="#">Facturas</a>
+      <a class="nav-btn" href="./clients.php">Clientes</a>
+      <a class="nav-btn" href="./materials.php">Materiales</a>
+      <a class="nav-btn" href="./compra.php">Ordenes de compra</a>
+      <a class="nav-btn" href="./facturas.php">Facturas</a>
+      <a class="nav-btn" href="./mano.php">Mano de Obra</a>
     </nav>
     <div class="body">
       <div class="tbl">
@@ -107,65 +108,6 @@
                 <div class="row">
                   <div class="col"></div>
                   <div class="col">
-                    <button class="btn add-container" style="float:right" type="submit" name="button">Crear</button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div id="modal-edit" class="modal">
-          <div class="form-modal">
-            <a class="cerrar-edit cerrar" style="color:white" onclick="hideModalEdit();">X</a>
-            <form class="" action="" method="post">
-              <div class="container-fluid">
-                <div class="row">
-                  <h6 class="title">NUEVO <span class="title-spn">CLIENTE</span></h6>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input class="form-element" type="text" name="name" value="" placeholder="Nombre">
-                  </div>
-                  <div class="col">
-                    <input class="form-element" type="text" name="a_paterno" value="" placeholder="Apellido Paterno">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input class="form-element" type="text" name="a_materno" value="" placeholder="Apellido Materno">
-                  </div>
-                  <div class="col">
-                    <input class="form-element" type="text" name="rfc" value="" placeholder="RFC">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input class="form-element" type="text" name="colonia" value="" placeholder="Colonia">
-                  </div>
-                  <div class="col">
-                    <input class="form-element" type="text" name="calle" value="" placeholder="Calle">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input class="form-element" type="text" name="num_int" value="" placeholder="Numero interior">
-                  </div>
-                  <div class="col">
-                    <input class="form-element" type="text" name="num_ext" value="" placeholder="Numero exterior">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input class="form-element" type="text" name="num_tel" value="" placeholder="Numero telefónico">
-                  </div>
-                  <div class="col">
-                    <input class="form-element" type="text" name="rol" value="" placeholder="Rol">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col"></div>
-                  <div class="col">
-                    <button class="btn add-container" style="float:right" type="submit" name="button">Guardar</button>
                   </div>
                 </div>
               </div>
